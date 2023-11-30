@@ -1,0 +1,22 @@
+{
+  "name": "fss_take_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.24.5",
+    "@wdio/devtools-service": "^8.24.5",
+    "@wdio/local-runner": "^8.24.5",
+    "@wdio/mocha-framework": "^8.24.5",
+    "@wdio/spec-reporter": "^8.24.2",
+    "chromedriver": "^119.0.1",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
